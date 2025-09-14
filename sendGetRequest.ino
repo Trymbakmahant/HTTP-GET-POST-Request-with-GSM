@@ -4,7 +4,7 @@
 SoftwareSerial gprsShield(2, 3); // RX, TX
 
 void setup() {
-  int baudRate=19200 // change the baud rate for your GSM modem eg: 9600, 115200
+  int baudRate=19200 ;// change the baud rate for your GSM modem eg: 9600, 115200
   Serial.begin(baudRate); // Serial monitor
   gprsShield.begin(baudRate); // gprsShield module
   delay(1000);
